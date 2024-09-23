@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow: hidden;
+}
+.glass-effect {
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Frosted glass blur effect */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Border to enhance the glass effect */
+}
+
+/* Apply custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Dark background for track */
+  border-radius: 10px; /* Rounded edges */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #5a5a5a; /* Dark gray thumb */
+  border-radius: 10px; /* Rounded edges for the thumb */
+  border: 2px solid #1e1e1e; /* Padding between the thumb and track */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #888888; /* Lighter gray on hover */
+}
+
+/* Handle when active (clicked) */
+::-webkit-scrollbar-thumb:active {
+  background-color: #aaaaaa; /* Even lighter gray when active */
+}
