@@ -20,7 +20,7 @@ function Navigation({ totalSlides }) {
       className={`fixed bottom-8 left-1/2 transform -translate-x-1/2 flex justify-between items-center p-4 ${navBackgroundClass} backdrop-filter backdrop-blur-lg rounded-full z-50`}
     >
       <Link
-        to={`/slide/${Math.max(1, currentSlide - 1)}`}
+        to={`/FezaGursey/slide/${Math.max(1, currentSlide - 1)}`}
         className={`p-2 rounded-full ${buttonClass} transition-colors ${
           currentSlide === 1 ? "opacity-50 cursor-not-allowed" : ""
         }`}
@@ -31,7 +31,7 @@ function Navigation({ totalSlides }) {
         {currentSlide} / {totalSlides}
       </div>
       <Link
-        to={`/slide/${Math.min(totalSlides, currentSlide + 1)}`}
+        to={`/FezaGursey/slide/${Math.min(totalSlides, currentSlide + 1)}`}
         className={`p-2 rounded-full ${buttonClass} transition-colors ${
           currentSlide === totalSlides ? "opacity-50 cursor-not-allowed" : ""
         }`}

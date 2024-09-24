@@ -73,7 +73,7 @@ const Slide1 = () => {
           transition={{ type: "spring", stiffness: 300, damping: 10 }}
         >
           <img
-            src="/feza.png"
+            src="/FezaGursey/feza.png"
             alt="Feza Gürsey"
             className="w-full h-full object-cover"
           />

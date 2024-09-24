@@ -71,6 +71,7 @@ const Slide2 = () => {
               <li>Grup Teorisi ve Kuantum Mekaniği</li>
               <li>Gauge Teorileri</li>
               <li>SU(3) Simetrisi</li>
+              <li>Ve Çok daha fazlası...</li>
             </ul>
           </motion.div>
         </div>

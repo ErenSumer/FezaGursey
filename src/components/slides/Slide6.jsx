@@ -66,8 +66,7 @@ const Slide6 = () => {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="text-3xl font-light text-white"
             >
-              &quot;Temel bilimi unutan medeniyetler sonunda teknoloji kıtlığından ve
-              fikir yoksunluğundan kurtulamazlar.&quot;
+              Eren Sümer & Kerem Sever.
             </motion.p>
           </motion.div>
         )}

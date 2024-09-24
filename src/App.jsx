@@ -23,7 +23,7 @@ function AnimatedRoutes() {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         {slides.map((Slide, index) => (
-          <Route key={index} path={`/slide/${index + 1}`} element={<Slide />} />
+          <Route key={index} path={`/FezaGursey/slide/${index + 1}`} element={<Slide />} />
         ))}
         <Route path="*" element={<Slide1 />} />
       </Routes>

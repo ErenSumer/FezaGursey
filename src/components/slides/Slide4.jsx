@@ -15,21 +15,21 @@ const containerVariants = {
 const images = [
   {
     id: 1,
-    src: "/fizik.png",
+    src: "/FezaGursey/fizik.png",
     title: "Grup Teorisi Ve Kuantum Fiziği",
     description:
       "Grup Teorisi ve Kuantum Fiziği:Grup teorisi, matematikte simetriyi ve yapıların dönüşümlerini inceleyen bir alandır ancak fizikte ise parçacıkların simetrilerini anlamada önemli rol görür. Feza Gürsey, grup teorisini kuantum fiziğine uygulayarak, SU(2) ve SU(3) gibi simetri gruplarının parçacık fiziğinde nasıl kullanıldığını göstermiştir. Bu gruplar, temel kuvvetlerin ve parçacıkların etkileşimlerinin daha iyi anlaşılmasını sağlar.",
   },
   {
     id: 2,
-    src: "/spirals.jpg",
+    src: "/FezaGursey/spirals.jpg",
     title: "Gauge Teorisi",
     description:
       "Gauge teorisi, fiziksel etkileşimleri açıklamak için kullanılan bir matematiksel çerçevedir. Bu teori, temel kuvvetlerin (elektromanyetik, zayıf ve güçlü kuvvetler) nasıl işlediğini anlamamıza yardımcı olur. Gauge teorisi, belirli simetrilere dayanarak, parçacıkların nasıl etkileştiğini ve bu etkileşimlerin altında yatan yasaları ortaya koyar.",
   },
   {
     id: 3,
-    src: "/simetri.jpg",
+    src: "/FezaGursey/simetri.jpg",
     title: "SU(3)",
     description:
       "SU(3) simetrisi, parçacık fiziğinde kullanılan bir matematiksel grup teorisidir.Özellikle kuarkların etkileşimlerini açıklamak için kullanılır.Bu simetri, kuantum renk dinamiği (QCD) adı verilen teorinin temelidir ve güçlü nükleer kuvveti açıklayan temellerden biridir.",
